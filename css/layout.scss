@@ -1,0 +1,201 @@
+body{
+
+  //background-color: black ;
+  //height: 100vh;
+  img{
+    width: 100%;
+
+  }
+
+  .container{
+    max-width: 640px;
+    max-height: 1136px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    right:0;
+    margin: auto;
+    //background-color: black ;
+
+    .page1{
+
+      //background-color: rgba(0,0,0,0.8);
+      //display: none;
+
+      .top{
+        width: 100%;
+        padding-top: 13.28126%;
+        text-align: right;
+        .cancel{
+          max-width: 7.187%;
+          padding-right:2.81%;
+          padding-top: 2.96%;
+          }
+        }
+
+      .help{
+        width: 64.22%;
+        padding-right: 14.21%;
+        padding-left: 21.5625%;
+        padding-top: 3.75%;
+      }
+
+
+      .finger-1{
+        position: relative;
+        z-index: 0;
+        width: 29.21875%;
+       //margin-right: 34.84%;
+       //margin-left: 35.46%;
+        margin-top: 7.5%;
+      }
+
+      .brightness {
+        -webkit-animation: brightness 3s infinite , opacity 3s infinite;
+
+      }
+
+      @-webkit-keyframes brightness {
+        0%, 100%  { -webkit-filter: brightness(0) ; }
+        50% { -webkit-filter: brightness(10) ; }
+      }
+      @-webkit-keyframes opacity {
+        0%, 100%  { -webkit-filter: opacity(30%); }
+        50% { -webkit-filter: opacity(100%); }
+      }
+
+      div{
+        //width: 100vh;
+        position: relative;
+
+        .finger-2{
+          max-width: 70%;
+          position: absolute;
+          z-index: 100;
+          top:-22px;
+          //margin-right: 34.84%;
+          margin-left: -28%;
+          //display: none;
+        }
+
+      }
+
+
+      .p1-title{
+        width: 63.44%;
+        margin-top: 16.09375%;
+        margin-right: 17.34375%;
+        margin-left: 19.21875%;
+        margin-bottom: 12.65625%;
+      }
+
+      .bottom{
+        height: 95px;
+      }
+
+    }
+
+    .page2{
+      //height: 100vh;
+      background-color: black;
+      display: none;
+
+      img{
+        max-width: 100%;
+        vertical-align:top;
+      }
+
+    }
+
+    .page3{
+      //height: 100Vh;
+      background-color: black;
+      display: none;
+      position: relative;
+      z-index: 0;
+      .top{
+        padding-top: 13.28125%;
+        text-align: right;
+        .cancel{
+          max-width: 7.187%;
+          padding-right:2.81%;
+          padding-top: 2.96%;
+        }
+      }
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        //padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+      }
+      .video-container iframe, .video-container object, .video-container embed {
+        position: absolute;
+        top: 0;left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .space{
+        position: relative;
+        max-width: 640px;
+        .back{
+          position: relative;
+          z-index: 10;
+          .face{
+            max-width: 51.94%;
+            padding-left: 5%;
+          }
+        }
+        .front{
+          width: 100%;
+          position: absolute;
+          z-index: 99;
+          top: 20%;
+          //right: 4%;
+          text-align:center;
+
+          div{
+            text-align: center;
+            position: relative;
+            right: -50%;
+              &:first-child{
+                max-width: 26.875%;
+                position: relative;
+
+                img{
+                  position: relative;
+                  width: 92%;
+                  right: -38%;
+                }
+                //margin-top: 42.5%;
+                //margin-bottom: 15%;
+              }
+              &:last-child{
+                max-width: 45.15625%;
+                margin-top: 4.9375%;
+                cursor:pointer;
+               img{
+                  width: 82%;
+                }
+              }
+
+          }
+        }
+      }
+
+
+      .p3-title{
+        background-color: black;
+        //margin-bottom: 14.84375%;
+        text-align: center;
+        img{
+          max-width: 73.78125%;
+        }
+      }
+      .bottom{
+          padding-top: 14.84375%;
+          background-color: black;
+      }
+    }
+  }
+}
