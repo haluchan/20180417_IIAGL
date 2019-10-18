@@ -17,7 +17,7 @@ $(document).ready(function(){
         return new Promise(function (resolve, reject){
 
             $('.finger-1').css('visibility',"hidden");
-            $('.finger').append('<img class="finger-2" src="../img/finger-2.png" alt="厄夢娃娃屋">');
+            $('.finger').append('<img class="finger-2" src="./img/finger-2.png" alt="厄夢娃娃屋">');
             resolve(true);
         })
     }
@@ -29,7 +29,7 @@ $(document).ready(function(){
                 let audio = $('#audio');
                 page1.fadeOut(10);
                 page2.fadeIn();
-                $('.screw').append('<img src="../img/trans.png" alt="厄夢娃娃屋">');
+                $('.screw').append('<img src="./img/trans.png" alt="厄夢娃娃屋">');
                 setTimeout(function () {
                     audio[0].play();
                 },100);
