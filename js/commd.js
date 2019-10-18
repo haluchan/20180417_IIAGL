@@ -1,4 +1,4 @@
-$('document').ready(function(){
+$(document).ready(function(){
     let page = 1 ,
         page1 = $('.page1'),
         page2 = $('.page2'),
